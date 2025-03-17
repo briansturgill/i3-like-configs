@@ -17,6 +17,8 @@ I've made equivalent configuration files for i3, sway, GlazeWM and aerospace.
 * For GlazeWM on Windows, copy `windows_config.yaml` to `~/.glzr/glazewm/config.yaml`.
 * For AeroSpace on MacOS, copy `mac_.aerospace.toml` to `~/.aerospace.toml`.
 
+FreeBSD NOTE: in `sway_config`, change `/usr/share` to `/usr/local/share`.
+
 Generally only features available on all platforms are in the files.
 This means that i3 stacking and tabbing are not supported.
 
